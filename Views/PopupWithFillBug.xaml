@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    x:Class="MauiCommunityToolkit.ReproductionSample.PopupFillBug.Views.PopupWithFillBug"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="Orange"
+    HorizontalOptions="Fill"
+    VerticalOptions="End">
+
+    <Grid HeightRequest="100" Padding="20">
+        <Label
+            FontSize="14"
+            HorizontalTextAlignment="Center"
+            Text="This popup should fill the screen."
+            TextColor="Black"
+            VerticalTextAlignment="Center" />
+    </Grid>
+</ContentView>
